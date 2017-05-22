@@ -1,0 +1,115 @@
+
+
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+ h1{
+	display: none;
+}
+ img{
+	width: 60px;
+	height: auto;
+}
+body{
+	background: url(../img/pexels-photo-173383.jpeg) center top fixed;
+	min-height: 1200px;
+	color: #fff;
+}	
+.mainNav{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.mainNav ul li{
+	float: left;
+	margin: 20px 30px;
+}
+.mainNav ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 20px;
+	border: 1px solid transparent;
+	transition: color .5s,border .5s;
+}
+.mainNav ul li a:hover{
+	color: #000;
+	border: 1px solid #fff;
+}
+header{
+	max-width: 1200px;
+	margin:30px auto;
+	position: relative;
+}
+
+header nav{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+header nav ul li{
+	float: left;
+	margin: 20px 30px;
+}
+.interests li{
+	padding: 10px;
+	background-color: rgba(100,100,200,.5)  ;
+	width: 200px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	margin: 10px 30px 10px 0;
+	float: left;
+	border-radius: calc(15px);
+	transition: background .5s ,border-radius .5s ease 1s;
+}
+.interests li:hover{
+	background-color: rgba(100,100,200,.9)  ;
+	border-radius: calc(0px)
+}
+.tupian *{
+	padding: 0;
+	margin: 0;
+}
+.tupian figure{
+	position: relative;
+	float: left;
+	width: 30%;
+	overflow: hidden;
+	margin: calc(10%/6);
+	cursor: pointer;
+}
+.leslie{
+box-shadow: inset 10px 10px 100px 200px rgba(0,0,0, .5);
+transition: box-shadow .5s;
+}
+.leslie:hover{
+	box-shadow: inset 10px 10px 100px 200px rgba(0,0,0, .1);
+}
+.leslie figcaption{
+position: absolute;
+width: 60px;
+height: 40px;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+margin: auto;
+color: #ddd;
+opacity: 0;
+transition: opacity .5s;
+}
+.leslie:hover figcaption{
+	opacity: 1;
+
+}
+.leslie img{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: -1;
+}
