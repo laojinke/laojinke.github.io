@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html>
 
 	<head>
 		<meta charset="UTF-8">
@@ -52,11 +52,8 @@
 				<div id="news" v-for="(item,index) in tabsContents" class="content" v-show="nowIndex===index">{{item}}</div>
 			</div>
 		</div>
-	</body>
-
-</html>
-<script>
-	var app = new Vue({
+		<script>
+	      var app = new Vue({
 		el: '#app',
 		data: {
 			tabsItems: ['新闻', '通知','公告'], 
@@ -67,7 +64,11 @@
 			toggleTabs: function(index) {
 				this.nowIndex = index;
 			}
-		}
-	})
-</script>
+		       }
+	            })
+              </script>
+	</body>
+
+</html>
+
 
